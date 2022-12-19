@@ -1,4 +1,0 @@
-# fnkv
-  # MIT
-  # jsfnivjf
-
