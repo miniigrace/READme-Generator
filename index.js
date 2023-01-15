@@ -6,64 +6,58 @@ const fs = require('fs')
 const questions = [
     {
     type: 'input',
-    name:'Title',
+    name:'title',
     message: "What is the Project title?"
     }, 
 
     
     {
         type:"list", 
-        name:"License", 
+        name:"license", 
         message:"What is the license of your project?", 
         choices:["MIT", "GPL", "Mozilla Public License 2.0","The Unlicense", "None"]
     }, 
 
     {
         type: 'input', 
-        name:'Description', 
+        name:'description', 
         message: "What is the project about?"
     },
     
     {
     type: 'input',
-    name:'Installation',
+    name:'installation',
     message: "What application needs to be installed in the project?"
     },
 
     
     {
     type: 'input',
-    name:'Usage',
+    name:'usage',
     message: "What is the usage of the project?"
     },
 
     
     {
     type: 'input',
-    name:'Contribution',
+    name:'contribution',
     message: "What are the contribution guidelines?"
     },
 
     
     {
     type: 'input',
-    name:'Tests',
+    name:'tests',
     message: "What are the testing instructions of this project?"
     },
 
     
     {
     type: 'input',
-    name:'Username',
-    message: "What is your Github Username?"
+    name:'contact',
+    message: "What is your Github Username and email?"
     },
 
-    
-    {
-    type: 'input',
-    name:'Email',
-    message: "What is your email?"
-    },
 ];
 
 
