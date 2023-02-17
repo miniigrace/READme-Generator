@@ -1,8 +1,9 @@
-// TODO: Packages needed for this application
+//  Packages needed for this application
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs')
 
+// question variables
 const questions = [
     {
     type: 'input',
@@ -54,8 +55,14 @@ const questions = [
     
     {
     type: 'input',
-    name:'contact',
-    message: "What is your Github Username and email?"
+    name:'github',
+    message: "What is your Github Username?"
+    },
+
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email address: "
     },
 
 ];
