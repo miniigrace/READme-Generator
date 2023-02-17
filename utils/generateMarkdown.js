@@ -28,7 +28,8 @@ return `
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
-* [Contact](#contact)
+* [Github](#github)
+* [Email](#email)
 
 
 ## Description
